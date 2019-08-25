@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="100"/>
+
+    <!--//old idea-->
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/sliderFrag"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="50"-->
+        <!--&gt;</FrameLayout>-->
+    <!--<FrameLayout-->
+        <!--android:id="@+id/advertFrag"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="50"-->
+        <!--&gt;</FrameLayout>-->
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_category" />
+    <item
+        android:id="@+id/navigation_progress"
+        android:icon="@drawable/progress_report"
+        android:title="@string/title_progress" />
+    <item
+        android:id="@+id/navigation_custom"
+        android:icon="@drawable/customitemicon"
+        android:title="@string/title_custom" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings_gears_svgrepo_com"
+        android:title="@string/title_settings" />
+
+</menu>
